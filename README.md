@@ -1,6 +1,6 @@
 # Ranked Retrieval Search Engine with Spelling Correction
 
-A high-performance search engine implementing positional inverted indexing, proximity-based ranking, and edit-distance spelling correction for document retrieval.
+A simple search engine that ranks the output documents based on the promixity of the matching terms. It also supports spelling correction of query terms with maxiumum editing distance of 2 per search term (assuming Insert, Delete and Replace operations and no transpose).
 
 **Tech Stack:** Python 3.9, NLTK, Positional Inverted Index  
 
